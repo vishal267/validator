@@ -73,3 +73,14 @@ test-devops-orchestrators/
 - Bash (for script execution)
 
 ---
+
+## Pull the image locally from Github container Registry and Run the container 
+
+- docker pull ghcr.io/vishal267/validator:sha-7263253a53e735cee32ba712ae46783e967f43ab
+- docker run -d -p 3000:3000 ghcr.io/vishal267/validator:sha-7263253a53e735cee32ba712ae46783e967f43ab
+  
+- curl localhost:3000
+ 
+
+
+
